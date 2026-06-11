@@ -1,0 +1,12 @@
+{
+  "token": "",
+  "email": "",
+  "password": "",
+  "course_id": "课程 ID，把 list_courses 设为 true 运行一次可查看",
+  "course_url": "或填资料页 URL，自动解析 courseId",
+
+  "output": "downloads",
+  "list_courses": false,
+  "dry_run": false,
+  "skip_existing": true
+}
