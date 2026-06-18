@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt pyinstaller
 
       - name: Build exe
-        run: pyinstaller --onefile --name ketangpai_gui ketangpai_gui.py
+        run: pyinstaller --onefile --windowed --name ketangpai_gui ketangpai_gui.py
 
       - name: Create Release & Upload exe
         uses: softprops/action-gh-release@v2
